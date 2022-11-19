@@ -1,6 +1,6 @@
 {
   "name": "mini-qiankun-framework",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "简易版微前端框架",
   "main": "index.js",
   "scripts": {

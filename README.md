@@ -1,4 +1,4 @@
-### 微前端框架 mini-qiankun-framework
+## 微前端框架 mini-qiankun-framework
 
 `mini-qiankun-framework` 是通过仿写qiankun来原生实现的一个轻量级微前端框架——使用方便、可扩展性强，目前已实现应用注册、应用加载、沙箱隔离、样式隔离、全局状态管理、资源预加载等基本功能。
 
@@ -18,15 +18,12 @@
 
 🔌 可扩展性强，支持直接修改源码来自定义属于你的微前端框架
 
+[官方文档](https://github.com/bertilchan/mini-qiankun-framework)
+
 ## 快速上手
 
-推荐使用 npm 或 yarn 的方式进行安装，不仅可以在开发环境轻松调试，也可以放心地在生产环境打包部署使用。
+在主应用中安装 `mini-qiankun-framework`
 
 ```bash
-npm install mini-qiankun-framework --save
+npm i mini-qiankun-framework -S # 或者 yarn add mini-qiankun-framework
 ```
-
-```bash
-yarn mini-qiankun-framework --save
-```
-
