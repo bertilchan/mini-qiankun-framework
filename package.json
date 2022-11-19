@@ -1,0 +1,25 @@
+{
+  "name": "mini-mirco-frontend",
+  "version": "1.0.0",
+  "description": "简易版微前端框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bertilchan/mini-qiankun-framework.git"
+  },
+  "keywords": [
+    "micro",
+    "frontend",
+    "mini-qiankun",
+    "framework"
+  ],
+  "author": "Bertil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bertilchan/mini-qiankun-framework/issues"
+  },
+  "homepage": "https://github.com/bertilchan/mini-qiankun-framework#readme"
+}
