@@ -1,4 +1,5 @@
 import { currentApp } from './util';
+import { prefetch } from './htmlLoader/prefetch';
 import { getList, setList } from './const/subApps'
 import { rewriteRouter } from './router/rewriteRouter'
 import { setMainLifecycle } from './const/mainLifecycles';
@@ -37,5 +38,7 @@ export const start = async () =>  {
     // 将当前子应用做标记
     window.__CURRENT_SUB_APP__ = app.activeRule;
 
+    // 预加载
+    await prefetch();
   }
 }
