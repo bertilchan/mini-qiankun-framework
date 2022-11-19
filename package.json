@@ -1,5 +1,5 @@
 {
-  "name": "mini-mirco-frontend",
+  "name": "mini-qiankun-framework",
   "version": "1.0.0",
   "description": "简易版微前端框架",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "mini-qiankun",
     "framework"
   ],
-  "author": "Bertil",
+  "author": "Bertil Chan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bertilchan/mini-qiankun-framework/issues"
